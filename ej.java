@@ -6,7 +6,7 @@ public class Main {
      System.out.println("estudia " + args[2] + " horas al dia");
     }
 }
-static String veredicto(String valor1, String valor2) {
+private static String veredicto(String valor1, String valor2) {
 
 
 El método realiza la comprobación. Una posible solución sería la siguiente.
@@ -20,4 +20,6 @@ if (Integer.valueOf(valor1) < Integer.valueOf(valor2)){
 return "Ideal. Trabajas los contenidos en casa.";
 
 }
+
+=======
 //jorge altet zaragoza
